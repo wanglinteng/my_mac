@@ -9,11 +9,11 @@
 
 4. *系统偏好设置* -> *触控板* -> *轻点来点按* 
 
-   <img src="./1.png" alt="1" style="zoom: 33%;" />
+   <img src="./1.png" alt="1" style="zoom: 25%;" />
 
 5. *系统偏好设置* -> *辅助功能* -> *指针控制* -> *触控板选项*
 
-   <img src="./2.png" alt="2" style="zoom:33%;" />
+   <img src="./2.png" alt="2" style="zoom:25%;" />
 
 6. 安装sublime, http://www.sublimetext.com/
 
