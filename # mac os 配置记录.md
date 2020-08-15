@@ -20,10 +20,26 @@
 7. 解决github缓慢问题
 
    ```shell
-   # https://www.ipaddress.com/ # 有梯子就不要改了
-   # github 
-   199.232.69.194  github.global.ssl.fastly.net
-   140.82.113.3    github.com
+   # GitHub Start
+   52.74.223.119 github.com
+   192.30.253.119 gist.github.com
+   54.169.195.247 api.github.com
+   185.199.111.153 assets-cdn.github.com
+   151.101.76.133 raw.githubusercontent.com
+   151.101.108.133 user-images.githubusercontent.com
+   151.101.76.133 gist.githubusercontent.com
+   151.101.76.133 cloud.githubusercontent.com
+   151.101.76.133 camo.githubusercontent.com
+   151.101.76.133 avatars0.githubusercontent.com
+   151.101.76.133 avatars1.githubusercontent.com
+   151.101.76.133 avatars2.githubusercontent.com
+   151.101.76.133 avatars3.githubusercontent.com
+   151.101.76.133 avatars4.githubusercontent.com
+   151.101.76.133 avatars5.githubusercontent.com
+   151.101.76.133 avatars6.githubusercontent.com
+   151.101.76.133 avatars7.githubusercontent.com
+   151.101.76.133 avatars8.githubusercontent.com
+   # GitHub End
    
    sudo vim /etc/hosts
    sudo dscacheutil -flushcache # 刷新dns缓存 
@@ -40,25 +56,8 @@
 
 9. 安装brew
 
-   优先参考 [Homebrew安装2020年4月最新](https://blog.csdn.net/Jack_Bin0312/article/details/105746634?utm_medium=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.channel_param&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.channel_param)
-
-   ```shell
-      # 安装
-      git@github.com:Homebrew/install.git
-      cd install
-      vim install.sh  # 替换 BREW_REPO="https://mirrors.ustc.edu.cn/brew.git"
-      sh install.sh
-      
-      # 换源
-      cd "$(brew --repo)/Library/Taps/homebrew/homebrew-core"
-      git remote set-url origin https://mirrors.ustc.edu.cn/homebrew-core.git
-      
-      cd "$(brew --repo)"
-      git remote set-url origin https://mirrors.ustc.edu.cn/brew.git
-      
-      echo 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles' >> ~/.zshrc
-      brew update
-      
+   ```
+      /bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"   
       brew install wget
       brew install aria2  # 下载工具 
    ```
@@ -77,10 +76,15 @@
     vim ~/.zshrc # 添加 source .bash_profile
     ```
 
-
 13. 安装wps，https://mac.wps.cn/
+
 14. 安装微信，https://mac.weixin.qq.com/?t=mac&lang=zh_CN
+
 15. 安装pycharm教育版 ，常用功能基本具备 https://www.jetbrains.com/edu-products/download/#section=pycharm-edu
+
 16. 安装vimplus https://github.com/chxuan/vimplus
 
+17. 安装office2019 https://zhuanlan.zhihu.com/p/96530082
+
+18. 在线屏幕监测 https://screen.51240.com/#welcome
 
